@@ -1,0 +1,22 @@
+{
+  "name": "professor-frisby-functional-programming",
+  "version": "1.0.0",
+  "description": "https://egghead.io/lessons/javascript-linear-data-flow-with-container-style-types-box",
+  "main": "1-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changchanghwang/professor-frisby-functional-programming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changchanghwang/professor-frisby-functional-programming/issues"
+  },
+  "homepage": "https://github.com/changchanghwang/professor-frisby-functional-programming#readme",
+  "dependencies": {
+    "immutable-ext": "^1.1.5"
+  }
+}
