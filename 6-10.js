@@ -34,7 +34,7 @@ console.log(First("hi").concat(First("hello")))
 console.log(acct1.concat(acct2)._root.entries)
 console.log(Sum.empty())
 
-const a = List.of(Sum(1), Sum(2),Sum(3)).fold()
+const a = List.of(Sum(1), Sum(2),Sum(3)).fold(Sum.empty())
 console.log(a)
 
 function fold(...xs ){
@@ -42,3 +42,6 @@ function fold(...xs ){
 }
 
 console.log(fold(Sum(1), Sum(2),Sum(3)))
+
+const b = List.of(1,2,3).foldMap(Sum, Sum.empty())
+console.log(b)
